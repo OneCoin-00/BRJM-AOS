@@ -93,17 +93,67 @@
         android:letterSpacing="0.04"
         android:textColor="#000000"/>
 
-    <TableLayout
-        android:layout_width="307dp"
-        android:layout_height="162dp"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="24dp">
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" >
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
 
-    </TableLayout>
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="34dp"
+            android:background="@drawable/icon_shog_test"/>
+
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="28dp"
+            android:background="@drawable/icon2_test"/>
+
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="28dp"
+            android:background="@drawable/icon_diy_test"/>
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="28dp"
+            android:background="@drawable/icon_clothing_test"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="34dp"
+            android:background="@drawable/icon_furniture_test"/>
+
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="28dp"
+            android:background="@drawable/icon_tree_test"/>
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="28dp"
+            android:background="@drawable/icon_prop_test"/>
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="28dp"
+            android:background="@drawable/icon_beauty_test"/>
+    </LinearLayout>
 
 </LinearLayout>
