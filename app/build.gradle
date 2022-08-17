@@ -29,6 +29,10 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    viewBinding {
+        enabled = true
+    }//viewBinding -> layout에 있는 View의 id를 코틀린 코드에서 직접 사용할 수 있게 해주는 도구
+
 }
 
 dependencies {
