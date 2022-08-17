@@ -2,7 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".ui.login.activity.Join2Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,8 +21,9 @@
             android:background="@drawable/arrow_left" />
 
         <TextView
-            android:layout_width="72dp"
+            android:layout_width="match_parent"
             android:layout_height="27dp"
+            android:layout_marginEnd="151dp"
             android:layout_marginStart="100dp"
             android:layout_marginTop="9dp"
             android:layout_marginBottom="14dp"
@@ -30,7 +33,7 @@
             android:textColor="#000000"
             android:textSize="18sp" />
     </LinearLayout>
-    
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="200dp"
@@ -94,7 +97,6 @@
         android:textColor="#000000"/>
 
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="75dp"
@@ -102,31 +104,36 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/livingbt"
             android:layout_width="56dp"
             android:layout_height="75dp"
             android:layout_marginStart="34dp"
             android:background="@drawable/icon_shog_test"/>
 
         <Button
+            android:id="@+id/testbt"
             android:layout_width="56dp"
             android:layout_height="75dp"
             android:layout_marginStart="28dp"
-            android:background="@drawable/icon2_test"/>
+            android:background="@drawable/icon2_test" />
 
         <Button
+            android:id="@+id/diybt"
             android:layout_width="56dp"
             android:layout_height="75dp"
             android:layout_marginStart="28dp"
             android:background="@drawable/icon_diy_test"/>
+
         <Button
+            android:id="@+id/clothbt"
             android:layout_width="56dp"
             android:layout_height="75dp"
             android:layout_marginStart="28dp"
-            android:background="@drawable/icon_clothing_test"
-            />
+            android:background="@drawable/icon_clothing_test" />
     </LinearLayout>
 
     <LinearLayout
+
         android:layout_width="match_parent"
         android:layout_height="75dp"
         android:layout_marginTop="12dp"
@@ -134,26 +141,33 @@
         >
 
         <Button
+            android:id="@+id/furnbt"
             android:layout_width="56dp"
             android:layout_height="75dp"
             android:layout_marginStart="34dp"
             android:background="@drawable/icon_furniture_test"/>
 
         <Button
+            android:id="@+id/treebt"
             android:layout_width="56dp"
             android:layout_height="75dp"
             android:layout_marginStart="28dp"
             android:background="@drawable/icon_tree_test"/>
+
         <Button
+            android:id="@+id/propbt"
             android:layout_width="56dp"
             android:layout_height="75dp"
             android:layout_marginStart="28dp"
             android:background="@drawable/icon_prop_test"/>
+
         <Button
+            android:id="@+id/beautybt"
             android:layout_width="56dp"
             android:layout_height="75dp"
             android:layout_marginStart="28dp"
-            android:background="@drawable/icon_beauty_test"/>
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/icon_beauty_test" />
     </LinearLayout>
 
 </LinearLayout>

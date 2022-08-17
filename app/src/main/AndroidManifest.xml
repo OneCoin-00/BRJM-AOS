@@ -14,13 +14,14 @@
         android:theme="@style/Theme.BRJMAOS"
         tools:targetApi="31">
         <activity
+            android:name=".ui.login.activity.Join2Activity"
+            android:exported="false" />
+
+        <activity
             android:name=".ui.mypage.activity.MypageActivity"
             android:exported="false" />
         <activity
             android:name=".ui.login.activity.StartActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.login.activity.JoinActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,11 +30,18 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".ui.login.activity.JoinActivity">
+
+        </activity>
+
+        <activity
             android:name=".ui.login.activity.LoginActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false"></activity>
+            android:exported="false">
+
+        </activity>
     </application>
 
 </manifest>

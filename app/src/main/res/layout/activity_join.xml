@@ -23,13 +23,14 @@
             android:background="@drawable/arrow_left" />
 
         <TextView
-            android:layout_width="72dp"
+            android:layout_width="wrap_content"
             android:layout_height="27dp"
             android:text="회원가입"
             android:textSize="18sp"
+            android:layout_marginEnd="151dp"
             android:layout_marginTop="9dp"
             android:layout_marginBottom="14dp"
-            android:layout_marginStart="100dp"
+            android:layout_marginStart="118dp"
             android:fontFamily="@font/leferibaseregular"
             android:textColor="#000000"
             android:letterSpacing="0.03"
@@ -44,23 +45,25 @@
         >
 
         <TextView
-            android:layout_width="50dp"
+            android:layout_width="wrap_content"
             android:layout_height="24dp"
             android:text="이메일"
             android:layout_marginStart="20dp"
+            android:layout_marginEnd="308dp"
             android:fontFamily="@font/leferibaseregular"
             android:textSize="16sp"
             android:textColor="#868686"
             android:letterSpacing="0.03"/>
 
         <EditText
-            android:layout_width="335dp"
+            android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginStart="20dp"
-            android:textSize="18sp"
-            android:hint="hi"
+            android:layout_marginEnd="20dp"
             android:fontFamily="@font/leferibasebold"
-            android:letterSpacing="0.03"/>
+            android:hint="hi"
+            android:letterSpacing="0.03"
+            android:textSize="18sp" />
 
         <TextView
             android:layout_width="175dp"
@@ -73,8 +76,10 @@
             android:fontFamily="@font/leferibaseregular" />
 
         <Button
-            android:layout_width="335dp"
+            android:id="@+id/join1_button"
+            android:layout_width="match_parent"
             android:layout_height="56dp"
+            android:layout_marginEnd="20dp"
             android:background="@drawable/green_rg_button"
             android:layout_marginTop="24dp"
             android:layout_marginStart="20dp"
@@ -94,7 +99,8 @@
         >
 
         <TextView
-            android:layout_width="65dp"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="292dp"
             android:layout_height="24dp"
             android:text="인증번호"
             android:layout_marginStart="20dp"
@@ -104,10 +110,11 @@
             android:letterSpacing="0.03"/>
 
         <EditText
-            android:layout_width="335dp"
+            android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginStart="20dp"
             android:textSize="18sp"
+            android:layout_marginEnd="20dp"
             android:hint="hi"
             android:fontFamily="@font/leferibasebold"
             android:letterSpacing="0.03"/>
@@ -123,11 +130,13 @@
             android:fontFamily="@font/leferibaseregular" />
 
         <Button
-            android:layout_width="335dp"
+            android:id="@+id/join2_button"
+            android:layout_width="match_parent"
             android:layout_height="56dp"
             android:background="@drawable/green_rg_button"
             android:layout_marginTop="24dp"
             android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
             android:text="확인"
             android:textColor="#ffffff"
             android:textSize="16sp"

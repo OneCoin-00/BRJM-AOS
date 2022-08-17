@@ -5,8 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.login.activity.StartActivity">
+
     <Button
-        android:id="@+id/button"
+        android:id="@+id/startrg_button"
         android:layout_width="335dp"
         android:layout_height="56dp"
         android:layout_marginStart="20dp"
@@ -29,6 +30,7 @@
 
 
     <Button
+        android:id="@+id/startlogin_button"
         android:layout_width="335dp"
         android:layout_height="56dp"
         android:layout_marginStart="20dp"
@@ -47,5 +49,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/startrg_button" />
 </androidx.constraintlayout.widget.ConstraintLayout>
