@@ -2,14 +2,14 @@ package com.example.brjm_aos.ui.login.activity
 
 import android.content.ContentValues.TAG
 import android.content.Intent
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.Log
 import android.util.Patterns
-import androidx.core.view.isInvisible
-import androidx.core.view.isVisible
+
 import com.example.brjm_aos.databinding.ActivityJoinBinding
 
 
@@ -39,10 +39,12 @@ class JoinActivity : AppCompatActivity() {
                                        p1: Int, p2: Int, p3: Int) {
                 // 이메일 유효성 검사
                 if (p0.isValidEmail()){
-                    binding.questionEmailGreen.isInvisible
+                    binding.questionEmailGreen.text = "사용할 수 있는 이메일 입니다."
+                    binding.questionEmailGreen.setTextColor(Color.parseColor("#32a05f"))
                     Log.d(TAG,"성공")
                 }else{
-                    binding.questionEmailGreen.isVisible
+                    binding.questionEmailGreen.text = "사용할 수 없는 이메일 입니다."
+                    binding.questionEmailGreen.setTextColor(Color.parseColor("#e35252"))
                     Log.d(TAG,"실패")
                 }
             }
