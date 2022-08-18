@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.login.activity.PwActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="44dp">
+
+        <Button
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/arrow_left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:text="회원가입"
+            android:textSize="18sp"
+            android:layout_marginEnd="151dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="14dp"
+            android:layout_marginStart="118dp"
+            android:fontFamily="@font/leferibaseregular"
+            android:textColor="#000000"
+            android:letterSpacing="0.03"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="272dp"
+        android:text="비밀번호"
+        android:layout_marginTop="41dp"
+        android:fontFamily="@font/leferibaseregular"
+        android:textSize="16sp"
+        android:letterSpacing="0.03"
+        android:textColor="#868686"
+        />
+
+    <EditText
+        android:id="@+id/pw_edittext1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="비밀번호 입력"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:text="비밀번호를 확인해주세요."
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="195dp"
+        android:textColor="#32a05f"
+        android:textSize="14sp"
+        android:letterSpacing="0.03"
+        android:fontFamily="@font/leferibaseregular"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="272dp"
+        android:text="비밀번호 확인"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/leferibaseregular"
+        android:textSize="16sp"
+        android:letterSpacing="0.03"
+        android:textColor="#868686"/>
+    <EditText
+        android:id="@+id/pw_edittext2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="비밀번호 입력"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:text="비밀번호가 일치하지 않습니다."
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="162dp"
+        android:textColor="#e35252"
+        android:textSize="14sp"
+        android:letterSpacing="0.03"
+        android:fontFamily="@font/leferibaseregular"
+        />
+    <Button
+        android:id="@+id/pw_button"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/white_rg_button"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="20dp"
+        android:text="확인"
+        android:textColor="@color/green_color"
+        android:textSize="16sp"
+        android:fontFamily="@font/leferibasebold"
+        android:letterSpacing="0.03"
+        android:gravity="center"/>
+</LinearLayout>

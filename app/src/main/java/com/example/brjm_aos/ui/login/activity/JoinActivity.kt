@@ -2,18 +2,17 @@ package com.example.brjm_aos.ui.login.activity
 
 import android.content.ContentValues.TAG
 import android.content.Intent
-import android.nfc.Tag
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.Log
 import android.util.Patterns
-import android.view.View
+
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
 import com.example.brjm_aos.databinding.ActivityJoinBinding
-import java.util.regex.Pattern
+
 
 
 class JoinActivity : AppCompatActivity() {
@@ -26,7 +25,7 @@ class JoinActivity : AppCompatActivity() {
 
         //join2Button 버튼 이벤트 : 카테고리 선택 엑티비티로 이동
         binding.join2Button.setOnClickListener {
-            val intent = Intent(this, Join2Activity::class.java)
+            val intent = Intent(this, PwActivity::class.java)
             startActivity(intent)
         }
 
