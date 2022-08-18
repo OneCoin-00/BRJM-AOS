@@ -8,7 +8,6 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.util.Log
 import android.util.Patterns
-
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
 import com.example.brjm_aos.databinding.ActivityJoinBinding
