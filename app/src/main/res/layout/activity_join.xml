@@ -56,6 +56,8 @@
             android:letterSpacing="0.03"/>
 
         <EditText
+
+            android:id="@+id/question_email"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginStart="20dp"
@@ -66,10 +68,12 @@
             android:textSize="18sp" />
 
         <TextView
+            android:id="@+id/question_email_green"
             android:layout_width="175dp"
             android:layout_height="21dp"
             android:layout_marginStart="20dp"
             android:text="사용 가능한 이메일 입니다."
+            android:visibility="invisible"
             android:textColor="#32a05f"
             android:textSize="14sp"
             android:letterSpacing="0.03"
