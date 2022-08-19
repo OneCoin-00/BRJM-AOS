@@ -9,6 +9,7 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.util.Log
 import android.util.Patterns
+import android.view.View
 
 import com.example.brjm_aos.databinding.ActivityJoinBinding
 
@@ -41,6 +42,7 @@ class JoinActivity : AppCompatActivity() {
                 if (p0.isValidEmail()){
                     binding.questionEmailGreen.text = "사용할 수 있는 이메일 입니다."
                     binding.questionEmailGreen.setTextColor(Color.parseColor("#32a05f"))
+                    binding.joinlinear.setVisibility(View.VISIBLE)
                     Log.d(TAG,"성공")
                 }else{
                     binding.questionEmailGreen.text = "사용할 수 없는 이메일 입니다."

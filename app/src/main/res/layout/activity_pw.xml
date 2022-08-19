@@ -60,13 +60,15 @@
         android:hint="비밀번호 입력"
         android:inputType="textPassword"
         />
+
     <TextView
+        android:id="@+id/pw_tv1"
         android:layout_width="match_parent"
         android:layout_height="21dp"
-        android:text="비밀번호를 확인해주세요."
+        android:text="영문, 숫자를 포함하여 6자 이상"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="195dp"
-        android:textColor="#32a05f"
+        android:layout_marginEnd="190dp"
+        android:textColor="#e35252"
         android:textSize="14sp"
         android:letterSpacing="0.03"
         android:fontFamily="@font/leferibaseregular"
@@ -93,9 +95,10 @@
         android:hint="비밀번호 입력"
         />
     <TextView
+        android:id="@+id/pw_tv2"
         android:layout_width="match_parent"
         android:layout_height="21dp"
-        android:text="비밀번호가 일치하지 않습니다."
+        android:text=""
         android:layout_marginStart="20dp"
         android:layout_marginEnd="162dp"
         android:textColor="#e35252"
