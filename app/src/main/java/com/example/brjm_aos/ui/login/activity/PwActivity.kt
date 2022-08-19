@@ -2,12 +2,14 @@ package com.example.brjm_aos.ui.login.activity
 
 
 import android.content.ContentValues.TAG
+import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.Log
+import android.widget.Toast
 
 import com.example.brjm_aos.databinding.ActivityPwBinding
 import java.util.regex.Pattern
@@ -37,6 +39,8 @@ class PwActivity : AppCompatActivity() {
                         binding.pwTv2.text = "비밀번호가 일치합니다."
                         binding.pwTv2.setTextColor(Color.parseColor("#32a05f"))
                         Log.d(TAG,"일치")
+
+
                     }
                     else{
                         binding.pwTv2.text = "비밀번호가 일치하지 않습니다."
@@ -78,7 +82,22 @@ class PwActivity : AppCompatActivity() {
                 }
             }
         })
+
+        binding.pwButton.setOnClickListener {
+
+            if((binding.pwEdittext1.getText().toString().equals(binding.pwEdittext2.getText().toString()))&&Pattern.matches("^(?=.*\\d)(?=.*[a-zA-Z])[0-9a-zA-Z]{6,20}\$", binding.pwEdittext1.text)){
+
+                val intent = Intent(this, Join2Activity::class.java)
+                startActivity(intent)
+            }
+            else
+            {
+                Toast.makeText(this, "비밀번호를 확인해주세요", Toast.LENGTH_SHORT).show()
+            }
+        }
     }
 
 }
+
+
 
