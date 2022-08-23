@@ -2,35 +2,30 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/home_ic1"
-        android:enabled="true"
         android:icon="@drawable/icon_home_test"
         android:title="item1"
         />
 
     <item
         android:id="@+id/home_ic2"
-        android:enabled="true"
         android:icon="@drawable/icon_write_test"
         android:title="item2"
         />
 
     <item
         android:id="@+id/home_ic3"
-        android:enabled="true"
         android:icon="@drawable/icon_plus_test"
         android:title="item3"
         />
 
     <item
         android:id="@+id/home_ic4"
-        android:enabled="true"
-        android:icon="@drawable/icon_tree_test"
+        android:icon="@drawable/icon_news_test"
         android:title="item4"
         />
 
     <item
         android:id="@+id/home_ic5"
-        android:enabled="true"
         android:icon="@drawable/icon_my_test"
         android:title="item5"/>
 

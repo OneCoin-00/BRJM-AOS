@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item
-        android:drawable="@drawable/icon_my"
-        android:width="40dp"
-        android:height="40dp"
-        android:state_selected="false"/>
+
     <item
         android:state_selected="true"
         android:drawable="@drawable/icon_my"

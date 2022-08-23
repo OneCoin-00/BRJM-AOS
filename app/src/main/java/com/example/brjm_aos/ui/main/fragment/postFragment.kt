@@ -5,56 +5,39 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.brjm_aos.R
+import com.example.brjm_aos.databinding.FragmentMainhomeBinding
+import com.example.brjm_aos.databinding.FragmentPostBinding
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [postFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class postFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
+    //view binding 정의
+    private var binding : FragmentPostBinding? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
+
     }
 
+    // 뷰가 생성되었을 때 - 프레그먼트와 레이아웃을 연결시켜주는 부분
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_post, container, false)
+        binding = FragmentPostBinding.inflate(inflater,
+            container, false)
+
+        return binding!!.root
+
     }
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment postFragment.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            postFragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
-            }
+    override fun onDestroyView() {
+        binding = null
+        super.onDestroyView()
+    }
+
+    companion object { // 프래그먼트의 외부인 액티비티에서 접근하고 메모리에 올라간 프래그먼트 인스턴스 사용
+        fun newInstance() :postFragment{
+            return postFragment()
+        }
     }
 }
