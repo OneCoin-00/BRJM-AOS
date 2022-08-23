@@ -10,6 +10,8 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.util.Log
 import android.widget.Toast
+import androidx.core.content.ContextCompat
+import com.example.brjm_aos.R
 
 import com.example.brjm_aos.databinding.ActivityPwBinding
 import java.util.regex.Pattern
@@ -34,6 +36,7 @@ class PwActivity : AppCompatActivity() {
                 {
                     binding.pwTv1.text = "비밀번호를 확인했습니다."
                     binding.pwTv1.setTextColor(Color.parseColor("#32a05f"))
+                    //binding.pwTv1.backgroundTintList = ContextCompat.getColorStateList(applicationContext, R.color.starticon_selector )
 
                     if(binding.pwEdittext1.getText().toString().equals(binding.pwEdittext2.getText().toString())){
                         binding.pwTv2.text = "비밀번호가 일치합니다."
@@ -66,7 +69,7 @@ class PwActivity : AppCompatActivity() {
                 {
                     binding.pwTv1.text = "비밀번호를 확인했습니다."
                     binding.pwTv1.setTextColor(Color.parseColor("#32a05f"))
-
+                    //binding.pwTv1.backgroundTintList = ContextCompat.getColorStateList(applicationContext, R.color.starticon_selector )
                     if(binding.pwEdittext1.getText().toString().equals(binding.pwEdittext2.getText().toString())){
                         binding.pwTv2.text = "비밀번호가 일치합니다."
                         binding.pwTv2.setTextColor(Color.parseColor("#32a05f"))

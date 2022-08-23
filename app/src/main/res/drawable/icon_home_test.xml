@@ -3,6 +3,12 @@
     <item
         android:drawable="@drawable/icon_home"
         android:width="28dp"
-        android:height="40dp"/>
+        android:height="44dp"
+        android:state_selected="false"/>
 
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/icon_home_click"
+        android:width="28dp"
+        android:height="44dp"/>
 </layer-list>

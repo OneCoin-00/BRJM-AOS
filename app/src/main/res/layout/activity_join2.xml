@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".ui.login.activity.Join2Activity">
 
@@ -10,8 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal"
-        android:layout_marginTop="44dp"
-        >
+        android:layout_marginTop="44dp">
 
         <Button
             android:layout_width="24dp"
@@ -21,17 +21,18 @@
             android:background="@drawable/arrow_left" />
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="27dp"
+            android:text="회원가입"
+            android:textSize="18sp"
             android:layout_marginEnd="151dp"
-            android:layout_marginStart="100dp"
             android:layout_marginTop="9dp"
             android:layout_marginBottom="14dp"
+            android:layout_marginStart="118dp"
             android:fontFamily="@font/leferibaseregular"
-            android:letterSpacing="0.03"
-            android:text="회원가입"
             android:textColor="#000000"
-            android:textSize="18sp" />
+            android:letterSpacing="0.03"
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -43,7 +44,7 @@
         <Button
             android:layout_width="146dp"
             android:layout_height="146dp"
-            android:background="@drawable/ic_baseline_person_outline_"
+            android:background="@drawable/icon_pf_test"
             android:layout_gravity="center"/>
 
         <TextView
@@ -57,32 +58,36 @@
             android:fontFamily="@font/leferibaseregular"/>
     </LinearLayout>
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:orientation="horizontal">
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp">
 
         <EditText
-            android:layout_width="335dp"
-            android:layout_height="50dp"
-            android:hint="name"
-            android:layout_marginStart="20dp"
+            android:id="@+id/clearable_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:letterSpacing="0.04"
-            android:fontFamily="@font/leferibasebold"
             />
         <Button
+            android:id="@+id/xbutton"
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:layout_marginBottom="12dp"
-            android:layout_marginTop="12dp"/>
-        <Button
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_marginBottom="12dp"
-            android:layout_marginTop="12dp"/>
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="24dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/check"/>
 
-    </LinearLayout>
+        <Button
+            android:id="@+id/clearable_button_clear"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="24dp"
+            android:layout_marginRight="37dp"
+            android:background="@drawable/delbutton" />
+    </RelativeLayout>
 
 
     <TextView
@@ -101,13 +106,15 @@
         android:layout_width="match_parent"
         android:layout_height="75dp"
         android:layout_marginTop="24dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/livingbt"
             android:layout_width="56dp"
             android:layout_height="75dp"
-            android:layout_marginStart="34dp"
+            android:layout_marginStart="14dp"
             android:background="@drawable/icon_shog_test"/>
 
         <Button
@@ -128,7 +135,8 @@
             android:id="@+id/clothbt"
             android:layout_width="56dp"
             android:layout_height="75dp"
-            android:layout_marginStart="28dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginStart="27dp"
             android:background="@drawable/icon_clothing_test" />
     </LinearLayout>
 
@@ -169,5 +177,20 @@
             android:layout_marginEnd="20dp"
             android:background="@drawable/icon_beauty_test" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/joinslbutton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/green_rg_button"
+        android:layout_marginTop="47dp"
+        android:layout_marginStart="20dp"
+        android:text="회원가입"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:fontFamily="@font/leferibasebold"
+        android:letterSpacing="0.03"
+        android:gravity="center"/>
 
 </LinearLayout>
