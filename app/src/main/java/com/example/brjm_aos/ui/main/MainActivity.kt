@@ -8,7 +8,7 @@ import com.example.brjm_aos.ui.main.adapter.ViewPagerAdapter
 import com.google.android.material.tabs.TabLayoutMediator
 
 
-//상속 , view binding
+
 class MainActivity : AppCompatActivity(){
 
 
