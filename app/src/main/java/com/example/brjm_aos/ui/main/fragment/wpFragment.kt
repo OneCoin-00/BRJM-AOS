@@ -5,12 +5,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.brjm_aos.R
-import com.example.brjm_aos.databinding.FragmentMainhomeBinding
 import com.example.brjm_aos.databinding.FragmentWpBinding
 
 
-class wpFragment : Fragment() {
+class WpFragment : Fragment() {
     //view binding 정의
     private var binding : FragmentWpBinding? = null
 
@@ -26,7 +24,6 @@ class wpFragment : Fragment() {
     ): View? {
         binding = FragmentWpBinding.inflate(inflater,
             container, false)
-
         return binding!!.root
 
     }
@@ -37,7 +34,7 @@ class wpFragment : Fragment() {
     }
 
     companion object { // 프래그먼트의 외부인 액티비티에서 접근하고 메모리에 올라간 프래그먼트 인스턴스 사용
-        fun newInstance() : wpFragment{
+        fun newInstance() :wpFragment{
             return wpFragment()
         }
     }

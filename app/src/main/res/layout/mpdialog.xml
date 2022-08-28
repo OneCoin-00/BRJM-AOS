@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_marginStart="253dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/xbutton"
+        />
+
+    <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="103dp"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="36dp"
+            android:fontFamily="@font/leferibaseregular"
+            android:gravity="center_horizontal"
+            android:letterSpacing="0.03"
+            android:lineSpacingExtra="-12sp"
+            android:text="게시글 1회 작성 시,"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/mypagedialog1"
+            android:fontFamily="@font/leferibaseregular"
+            android:gravity="center"
+            android:letterSpacing="0.03"
+            android:text="태평양 플라스틱"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-3dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="9dp"
+            android:fontFamily="@font/leferibaseregular"
+            android:gravity="right"
+            android:letterSpacing="0.03"
+            android:lineSpacingExtra="-12sp"
+            android:text="칭호 획득"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="103dp"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="36dp"
+            android:fontFamily="@font/leferibaseregular"
+            android:gravity="center_horizontal"
+            android:letterSpacing="0.03"
+            android:lineSpacingExtra="-12sp"
+            android:text="게시글 5회 작성 시,"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/mypagedialog2"
+            android:fontFamily="@font/leferibaseregular"
+            android:gravity="center"
+            android:letterSpacing="0.03"
+            android:text="깨끗한 플라스틱"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-3dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="9dp"
+            android:fontFamily="@font/leferibaseregular"
+            android:gravity="right"
+            android:letterSpacing="0.03"
+            android:lineSpacingExtra="-12sp"
+            android:text="칭호 획득"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="103dp"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="36dp"
+            android:fontFamily="@font/leferibaseregular"
+            android:gravity="center_horizontal"
+            android:letterSpacing="0.03"
+            android:lineSpacingExtra="-12sp"
+            android:text="게시글 10회 작성 시,"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/mypagedialog3"
+            android:fontFamily="@font/leferibaseregular"
+            android:gravity="center"
+            android:letterSpacing="0.03"
+            android:text="안씻은 플라스틱"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-3dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="9dp"
+            android:fontFamily="@font/leferibaseregular"
+            android:gravity="right"
+            android:letterSpacing="0.03"
+            android:lineSpacingExtra="-12sp"
+            android:text="칭호 획득"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="103dp"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="36dp"
+            android:fontFamily="@font/leferibaseregular"
+            android:gravity="center_horizontal"
+            android:letterSpacing="0.03"
+            android:lineSpacingExtra="-12sp"
+            android:text="게시글 50회 작성 시,"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/mypagedialog4"
+            android:fontFamily="@font/leferibaseregular"
+            android:gravity="center"
+            android:letterSpacing="0.03"
+            android:text="깨끗한 플라스틱"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-3dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="9dp"
+            android:fontFamily="@font/leferibaseregular"
+            android:gravity="right"
+            android:letterSpacing="0.03"
+            android:lineSpacingExtra="-12sp"
+            android:text="칭호 획득"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="103dp"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="36dp"
+            android:fontFamily="@font/leferibaseregular"
+            android:gravity="center_horizontal"
+            android:letterSpacing="0.03"
+            android:lineSpacingExtra="-12sp"
+            android:text="게시글 100회 작성 시,"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/mypagedialog5"
+            android:fontFamily="@font/leferibaseregular"
+            android:gravity="center"
+            android:letterSpacing="0.03"
+            android:text="플라스틱 누가써?"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-3dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="9dp"
+            android:fontFamily="@font/leferibaseregular"
+            android:gravity="right"
+            android:letterSpacing="0.03"
+            android:lineSpacingExtra="-12sp"
+            android:text="칭호 획득"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,18 +1,22 @@
 package com.example.brjm_aos.ui.login.activity
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.brjm_aos.databinding.ActivityJoin2Binding
 
 
 class Join2Activity : AppCompatActivity() {
 
+
+
+
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding = ActivityJoin2Binding.inflate(layoutInflater)
         setContentView(binding.root)
-
 
 
 //            binding.livingbt?.setOnClickListener {
@@ -28,4 +32,6 @@ class Join2Activity : AppCompatActivity() {
 
 
     }
+
+
 }

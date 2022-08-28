@@ -58,28 +58,28 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/livingbt"
+                    android:id="@+id/livingbt2"
                     android:layout_width="56dp"
                     android:layout_height="75dp"
                     android:layout_marginStart="14dp"
                     android:background="@drawable/icon_shog_test"/>
 
                 <Button
-                    android:id="@+id/testbt"
+                    android:id="@+id/testbt2"
                     android:layout_width="56dp"
                     android:layout_height="75dp"
                     android:layout_marginStart="28dp"
                     android:background="@drawable/icon2_test" />
 
                 <Button
-                    android:id="@+id/diybt"
+                    android:id="@+id/diybt2"
                     android:layout_width="56dp"
                     android:layout_height="75dp"
                     android:layout_marginStart="28dp"
                     android:background="@drawable/icon_diy_test"/>
 
                 <Button
-                    android:id="@+id/clothbt"
+                    android:id="@+id/clothbt2"
                     android:layout_width="56dp"
                     android:layout_height="75dp"
                     android:layout_marginEnd="14dp"
@@ -96,28 +96,28 @@
                 >
 
                 <Button
-                    android:id="@+id/furnbt"
+                    android:id="@+id/furnbt2"
                     android:layout_width="56dp"
                     android:layout_height="75dp"
                     android:layout_marginStart="34dp"
                     android:background="@drawable/icon_furniture_test"/>
 
                 <Button
-                    android:id="@+id/treebt"
+                    android:id="@+id/treebt2"
                     android:layout_width="56dp"
                     android:layout_height="75dp"
                     android:layout_marginStart="28dp"
                     android:background="@drawable/icon_tree_test"/>
 
                 <Button
-                    android:id="@+id/propbt"
+                    android:id="@+id/propbt2"
                     android:layout_width="56dp"
                     android:layout_height="75dp"
                     android:layout_marginStart="28dp"
                     android:background="@drawable/icon_prop_test"/>
 
                 <Button
-                    android:id="@+id/beautybt"
+                    android:id="@+id/beautybt2"
                     android:layout_width="56dp"
                     android:layout_height="75dp"
                     android:layout_marginStart="28dp"

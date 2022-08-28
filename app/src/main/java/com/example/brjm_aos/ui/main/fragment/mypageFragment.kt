@@ -1,11 +1,11 @@
 package com.example.brjm_aos.ui.main.fragment
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.brjm_aos.R
+import androidx.fragment.app.Fragment
+
 import com.example.brjm_aos.databinding.FragmentMypageBinding
 
 
@@ -13,16 +13,16 @@ import com.example.brjm_aos.databinding.FragmentMypageBinding
 class mypageFragment : Fragment() {
     //view binding 정의
     private var binding : FragmentMypageBinding? = null
-    private val tabIconList2 = listOf(R.drawable.icon_alarm, R.drawable.icon_root_list, R.drawable.icon_heart_test)
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
-//        binding.viewPager02.adapter = ViewpagerAdapter2(this)
-//
-//        TabLayoutMediator(binding.tabLayout02, binding.viewPager02) { tab, pos ->
-//            tab.setIcon(tabIconList2[pos])
-//        }.attach()
+
     }
+
+
 
     // 뷰가 생성되었을 때 - 프레그먼트와 레이아웃을 연결시켜주는 부분
     override fun onCreateView(
@@ -31,8 +31,8 @@ class mypageFragment : Fragment() {
     ): View? {
         binding = FragmentMypageBinding.inflate(inflater,
             container, false)
-
         return binding!!.root
+
 
     }
 
@@ -46,4 +46,6 @@ class mypageFragment : Fragment() {
             return mypageFragment()
         }
     }
+
+
 }

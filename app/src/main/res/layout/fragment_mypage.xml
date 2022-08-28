@@ -30,10 +30,39 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="103dp"
+        android:layout_height="105dp"
         android:layout_marginTop="44dp"
         >
 
+        <ImageView
+            android:id="@+id/img_load"
+            android:layout_width="103dp"
+            android:layout_height="103dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="240dp"
+            android:layout_marginBottom="-3dp"
+            android:background="@drawable/icon_pf_test2" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="143dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="207dp"
+            android:layout_marginBottom="55dp"
+            android:text="user"
+            android:textSize="20sp"
+            android:textStyle="bold" />
     </RelativeLayout>
 
     <com.google.android.material.tabs.TabLayout
@@ -44,6 +73,7 @@
         app:tabRippleColor="#FF32A05F"
         app:tabGravity="fill"
         app:tabIndicatorHeight="5dp"
+        app:tabMode="fixed"
         app:tabIndicatorGravity="top"
         />
 
