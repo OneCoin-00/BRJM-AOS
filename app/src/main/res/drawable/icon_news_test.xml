@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:drawable="@drawable/icon_news"
-        android:width="34dp"
-        android:height="43dp"/>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
 
-</layer-list>
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/icon_news_click"
+        android:width="28dp"
+        android:height="44dp"/>
+
+    <item
+        android:state_selected="false"
+        android:drawable="@drawable/icon_news"
+        android:width="28dp"
+        android:height="44dp"/>
+</selector>

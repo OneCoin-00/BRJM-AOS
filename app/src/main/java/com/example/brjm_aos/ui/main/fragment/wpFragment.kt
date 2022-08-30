@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.example.brjm_aos.databinding.FragmentWpBinding
 
 
-class WpFragment : Fragment() {
+class wpFragment : Fragment() {
     //view binding 정의
     private var binding : FragmentWpBinding? = null
 

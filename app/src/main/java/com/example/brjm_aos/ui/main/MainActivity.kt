@@ -1,33 +1,68 @@
 package com.example.brjm_aos.ui.main
 
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.fragment.app.Fragment
 import com.example.brjm_aos.R
 import com.example.brjm_aos.databinding.ActivityMainBinding
-import com.example.brjm_aos.ui.main.adapter.ViewPagerAdapter
-import com.google.android.material.tabs.TabLayoutMediator
+import com.example.brjm_aos.ui.main.fragment.*
 
 
+class MainActivity : AppCompatActivity() {
 
-class MainActivity : AppCompatActivity(){
-
-
-    private val tabIconList = listOf(R.drawable.icon_home_test, R.drawable.icon_write_test, R.drawable.icon_plus_test,R.drawable.icon_news_test, R.drawable.icon_my_test)
-
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val binding = ActivityMainBinding.inflate(layoutInflater)
-        binding.viewPager01.adapter = ViewPagerAdapter(this)
+        binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        TabLayoutMediator(binding.tabLayout01, binding.viewPager01) { tab, pos ->
-            tab.setIcon(tabIconList[pos])
-        }.attach()
 
-
+        initNavigationBar() //네이게이션 바의 각 메뉴 탭을 눌렀을 때 화면이 전환되도록 하는 함수.
     }
-}
+
+
+    private fun initNavigationBar() {
+
+
+        binding.bottomNavigationView.run {
+            setOnItemSelectedListener() {
+                when (it.itemId) {
+                    R.id.home_ic1 -> {
+                        changeFragment(mainhomeFragment())
+
+                    }
+                    R.id.home_ic2 -> {
+                        changeFragment(wpFragment())
+                    }
+                    R.id.home_ic3 -> {
+                        changeFragment(postFragment())
+                    }
+                    R.id.home_ic4 -> {
+                        changeFragment(newsFragment())
+                    }
+                    R.id.home_ic5 -> {
+                        changeFragment(mypageFragment())
+                    }
+                }
+                true
+            }
+            selectedItemId = R.id.home_ic1
+        }
+    }
+
+
+
+
+    private fun changeFragment(fragment: Fragment) {
+            supportFragmentManager.beginTransaction()
+                .replace(binding.frameLayout.id, fragment).commit()
+        }
+    }
+
+
+
 
 
 

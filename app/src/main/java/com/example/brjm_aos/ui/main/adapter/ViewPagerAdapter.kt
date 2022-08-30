@@ -4,7 +4,6 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.brjm_aos.ui.main.fragment.*
-import com.example.brjm_aos.ui.mypage.fragment.Fragment_like
 
 class ViewPagerAdapter (fragmentActivity: FragmentActivity) :
     FragmentStateAdapter(fragmentActivity) {
@@ -14,7 +13,7 @@ class ViewPagerAdapter (fragmentActivity: FragmentActivity) :
     override fun createFragment(position: Int): Fragment {
         return when(position) {
             0 -> mainhomeFragment()
-            1 -> Fragment_like()
+            1 -> wpFragment()
             2 -> postFragment()
             3 -> newsFragment()
             else -> mypageFragment()

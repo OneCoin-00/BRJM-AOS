@@ -8,7 +8,6 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.brjm_aos.databinding.FragmentMainhomeBinding
 import com.example.brjm_aos.ui.home.activity.Home1Activity
-import com.example.brjm_aos.ui.login.activity.LoginActivity
 
 
 //fragment 상속
